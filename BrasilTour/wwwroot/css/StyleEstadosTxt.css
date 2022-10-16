@@ -1,0 +1,20 @@
+﻿ .Rio{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(203, 214, 223);
+    }
+.FundoImg {
+    background-image: url(images/Mapa-do-Brasil-Turismo-480x480-1.jpg);
+}
+
+
+
+paragrafoRio {
+    background-color: aliceblue;
+    border-radius: 15px;
+    padding: 20px;
+    width: 700px;
+    height: 800px;
+    margin: auto;
+    font-size: 22px;
+}

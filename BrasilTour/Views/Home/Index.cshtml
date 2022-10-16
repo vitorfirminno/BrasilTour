@@ -3,7 +3,7 @@
     ViewData["Title"] = "Página inicial";
 }
 
-    <div> 
+   <!-- <div> 
 <link rel="stylesheet" href="~/css/home.css">
 </div>
     <div class="d-flex justify-content-start">
@@ -13,9 +13,20 @@
       
     
     </div>
+
     <br />
     <div class="d-flex justify-content-start">
                  <h1 class="text-white">BrasilTour</h1>
     </div>
+    -->
+    <link rel="stylesheet" href="~/css/home.css">
+    
+   <div>
+       <link rel="stylesheet" href="~/css/StyleEstados.css">
+       <h1>Guia Turistico dos Estados Brasileiros</h1>
+    <ul>
+      <a  asp-controller="Estados" asp-action="RioDeJaneiro">Rio de Janeiro</a>
+      <p><br></p>
+      <a asp-controller="Estados" asp-action="Rondonia">Rondonia</a>
 
-   
+   </div>
