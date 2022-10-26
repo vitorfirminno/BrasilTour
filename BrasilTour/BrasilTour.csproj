@@ -6,7 +6,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="wwwroot\css\images\pexelsphoto1726310.jpeg" />
+    <Content Remove="wwwroot\css\FundoImg.css" />
+    <Content Remove="wwwroot\css\home.css" />
+    <Content Remove="wwwroot\css\images\Mapa-do-Brasil-Turismo-480x480-1.jpg" />
+    <Content Remove="wwwroot\css\images\pexelsphoto1726310.jpeg" />
+    <Content Remove="wwwroot\css\images\turismo.jpg" />
+    <Content Remove="wwwroot\css\StyleEstados.css" />
+    <Content Remove="wwwroot\css\StyleEstadosTxt.css" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="wwwroot\css\nicepage.css" />
     <None Include="wwwroot\css\Página-Inicial.css" />
   </ItemGroup>
