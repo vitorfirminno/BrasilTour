@@ -31,6 +31,7 @@ namespace BrasilTour.Controllers {
         public IActionResult SãoPaulo() {
 
 
+
             return View();
         }
 

@@ -9,13 +9,36 @@
     
     <h1>Descubra seu proximo destino pelo Brasil</h1>
     <h2>Selecione um estado</h2>
-    <select asp-for="Nome" class="form-select" aria-label="Default select example">
-        <option value="SãoPaulo" asp-controler="EstadosController" asp-action="SãoPaulo" asp-route="SãoPaulo.cshtml">São Paulo</option>
-        <option value="MG">Minas Gerais</option>
-        <option value="RS">Rio Grande do Sul</option>
-        <option value="PR">Paraná</option>        
-        <option value="RJ">Rio de Janeiro</option>
+   
+    
+    <select id="link"  onchange="changeFunc(value);">
+        <option>Selecione o Estado</option>
+        <option value="SP">São Paulo</option>
+
+        <option value="RJ"> Rio de Janeiro</option>
+        <option value="RO"> Rondonia</option>
+
+           
+        
     </select>
+    <script type="text/javascript">
+    function changeFunc($i) {
+        if ($i == 'SP'){
+            window.open('./Estados/SãoPaulo','_self');
+        }
+        if ($i == 'RJ'){
+            window.open('./Estados/RioDeJaneiro','_self');
+        }
+        if ($i == 'RO'){
+            window.open('./Estados/Rondonia','_self');
+        }
+      /*  if ($i == 'RJ'){
+            window.open('./Estados/RioDeJaneiro','_self');
+        }
+        */
+
+    }
+    </script>
 
     <a class="HeroTwoImg1"></a>
     <a class="HeroTwoImg2"></a>

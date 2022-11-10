@@ -1,6 +1,6 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap%27%27); .hero
+﻿@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap%27%27); 
 
-{
+.hero{
     position: absolute;
     width: 1440px;
     height: 800px;
