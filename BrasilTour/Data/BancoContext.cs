@@ -6,5 +6,7 @@ namespace BrasilTour.Data {
         public BancoContext(DbContextOptions<BancoContext> options) : base(options) {
         }
         public DbSet<ContatoModel> Contatos { get; set; }
+
+        //public DbSet<EstadosModel> { get; set; }
     }
-}
+    }

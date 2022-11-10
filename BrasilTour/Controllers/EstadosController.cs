@@ -28,6 +28,11 @@ namespace BrasilTour.Controllers {
             return View();
         }
 
+        public IActionResult SãoPaulo() {
+
+
+            return View();
+        }
 
 
         public IActionResult Privacy() {

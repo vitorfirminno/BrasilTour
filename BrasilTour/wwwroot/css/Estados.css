@@ -1,0 +1,38 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap%27%27); .hero
+
+{
+    position: absolute;
+    width: 1440px;
+    height: 800px;
+    left: 0px;
+    top: 74px;
+    background: #355347;
+}
+
+.texto {
+    position: absolute;
+    width: 610px;
+    height: 209.34px;
+    left: 165px;
+    top: 130px;
+    font-family: 'Dongle';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 26px;
+    color: #BA8B6D;
+}
+
+.hero h1 {
+    position: absolute;
+    width: 886px;
+    height: 64.95px;
+    left: 145px;
+    top: 20px;
+    font-family: 'Dongle';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72.1875px;
+    line-height: 105px;
+    color: #BA8B6D;
+}

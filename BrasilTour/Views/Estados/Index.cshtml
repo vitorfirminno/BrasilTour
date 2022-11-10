@@ -1,11 +1,22 @@
-﻿
+﻿@model EstadosModel
 @{
     ViewData["Title"] = "Estados";
 }
 
 <link rel="stylesheet" href="/css/inicio.css" />
 
-<div class="HeroTwo"><h1>Descubra seu proximo destino pelo Brasil</h1>
+<div class="HeroTwo">
+    
+    <h1>Descubra seu proximo destino pelo Brasil</h1>
+    <h2>Selecione um estado</h2>
+    <select asp-for="Nome" class="form-select" aria-label="Default select example">
+        <option value="SãoPaulo" asp-controler="EstadosController" asp-action="SãoPaulo" asp-route="SãoPaulo.cshtml">São Paulo</option>
+        <option value="MG">Minas Gerais</option>
+        <option value="RS">Rio Grande do Sul</option>
+        <option value="PR">Paraná</option>        
+        <option value="RJ">Rio de Janeiro</option>
+    </select>
+
     <a class="HeroTwoImg1"></a>
     <a class="HeroTwoImg2"></a>
     <a class="HeroTwoImg3"></a>
