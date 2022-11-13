@@ -27,6 +27,7 @@ namespace BrasilTour {
             services.AddEntityFrameworkSqlServer()
                 .AddDbContext<BancoContext>(o => o.UseSqlServer(Configuration.GetConnectionString("DataBase")));
             services.AddScoped<IContatoRepositorio, ContatoRepositorio>();
+            services.AddScoped<IEstadoRepositorio, EstadoRepositorio>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

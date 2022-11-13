@@ -1,21 +1,52 @@
 ﻿using BrasilTour.Models;
+using BrasilTour.Repositorio;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.CodeAnalysis;
+using System.Collections.Generic;
 using System.Diagnostics;
 
 namespace BrasilTour.Controllers {
     public class EstadosController : Controller {
-       
 
-            public IActionResult Index() {
+        private readonly IEstadoRepositorio _estadoRepositorio;
+        public EstadosController(IEstadoRepositorio estadoRepositorio) {
+            _estadoRepositorio = estadoRepositorio;
+        }
+        public IActionResult Index() {
 
 
-                return View();
+
+        return View();
             }
 
 
-        public IActionResult RioDeJaneiro() {
+
+
+
+
+        public IActionResult Forms() {
+            /*Criar*/
+
+
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Forms(EstadosModel estados) {
+            /*Criar*/
+            _estadoRepositorio.Adicionar(estados);
+            return RedirectToAction("Index");
+
+            return View();
+        }
+
+
+
+
+
+
+
+            public IActionResult RioDeJaneiro() {
 
 
             return View();
@@ -34,6 +65,12 @@ namespace BrasilTour.Controllers {
 
             return View();
         }
+        public IActionResult Exemplo() {
+            List<EstadosModel> estados = _estadoRepositorio.BuscarTodos();
+
+            return View(estados);
+        }
+
 
 
         public IActionResult Privacy() {

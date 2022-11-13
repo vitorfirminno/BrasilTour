@@ -7,6 +7,6 @@ namespace BrasilTour.Data {
         }
         public DbSet<ContatoModel> Contatos { get; set; }
 
-        //public DbSet<EstadosModel> { get; set; }
+        public DbSet<EstadosModel> Estados{ get; set; }
     }
     }
