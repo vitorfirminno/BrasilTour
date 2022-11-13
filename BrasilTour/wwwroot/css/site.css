@@ -70,7 +70,12 @@ body {
   /* Margin bottom by footer height */
  /* margin-bottom: 60px;
 }*/
-* {
+html, body {
+    min-height: 100%;
+
+}
+
+    * {
     margin: 0;
     padding: 0;
 }
@@ -171,12 +176,14 @@ body {
 }
 
 .footer {
-
-   position:absolute;
-  flex-shrink:0;
-  top :110%;
-  width: 100%;
-  
-  text-align:center;
-  line-height: 25px; /* Vertically center the text there */
+    /*position:relative;
+    margin-left:-100px;
+    flex-shrink:0;
+    bottom: 0;
+    text-align: center;   
+    padding: 30px;
+    width:100%;
+    height:100px;
+        */
+    /* Vertically center the text there */
 }
