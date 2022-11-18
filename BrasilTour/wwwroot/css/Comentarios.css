@@ -1,0 +1,68 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@700&family=Roboto:ital,wght@1,700&family=Rubik:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    
+    background-color: #355347;
+    width: 1520px;
+    height: 750px;
+    left: 0px;
+    top: 68px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0 5rem 0;
+    font-family: Heebo;
+    font-size: 40px;
+    color: #BA8B6D;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 980px;
+    margin: 0 auto;
+    grid-gap: 40px;
+}
+
+.card {
+    background-color: rgba(230, 234, 246, 0.831);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px 40px;
+    box-shadow: 6px 6px 10px rgb(0, 0, 0);
+}
+
+    .card .user {
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        margin-bottom: 15px;
+    }
+
+.star {
+    width: 20px;
+}
+
+p {
+    margin-top: 20px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+}
+
+footer{
+    bottom:0;
+}

@@ -1,10 +1,12 @@
 ﻿namespace BrasilTour.wwwroot.css
 
 .HeroOneImg {
-    position:absolute;
-    background: url('images/P-o-de-A-car-Rio-de-Janeiro-brazil-28867889-1280-800.jpg') no-repeat center center;
-    background-size: cover;
-    height: 105vh;
+    position: absolute;
+    width: 1440px;
+    height: 723px;
+    left: 0px;
+    top: 68px;
+    background: #355347;
 }
 
 .HeroOneImg h1 {

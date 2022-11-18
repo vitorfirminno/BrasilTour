@@ -1,0 +1,35 @@
+﻿@model List<EstadosModel>
+@{
+}
+
+<link rel="stylesheet" href="~/css/Comentarios.css" />
+<div class="hero">
+
+    <h1>Comentarios sobre o Brasil!</h1>
+
+    @if (Model != null && Model.Any())
+    { foreach (EstadosModel estados in Model)
+        {
+            <section class="cards">
+
+        <div class="card">
+
+                <h3> @estados.Nome</h3>
+                <h4>@estados.Cidade</h4>
+        <div class="stars">
+                <img class="star" src="/css/images/star.svg" alt="">
+                <img class="star"src="/css/images/star.svg" alt="">
+                <img class="star" src="/css/images/star.svg" alt="">
+                <img class="star" src="/css/images/star.svg"alt="">
+                <img class="star" src="/css/images/star.svg"alt="">
+        </div>
+                <p>@estados.Texto </p>
+       </div>
+
+
+    </section>
+    }
+    }
+
+</div>
+
