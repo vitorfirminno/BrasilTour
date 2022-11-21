@@ -175,8 +175,8 @@ html, body {
     text-decoration: none;
 }
 
-.footer {
-    /*position:relative;
+.footer {/*
+    position:relative;
     margin-left:-100px;
     flex-shrink:0;
     bottom: 0;

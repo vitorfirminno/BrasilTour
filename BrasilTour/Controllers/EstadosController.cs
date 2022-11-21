@@ -83,7 +83,9 @@ namespace BrasilTour.Controllers {
             }
 
         public IActionResult Comentarios() {
-            return View();
+            List<EstadosModel>  estados = _estadoRepositorio.BuscarTodos();
+
+            return View(estados);
         }
     }
     }
