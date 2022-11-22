@@ -37,7 +37,6 @@ namespace BrasilTour.Controllers {
             _estadoRepositorio.Adicionar(estados);
             return RedirectToAction("Index");
 
-            return View();
         }
 
 

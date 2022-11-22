@@ -1,0 +1,34 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Doppio+One&display=swap');
+body {
+    background: #355347;
+}
+
+h1 {
+    position: absolute;
+    width: 930px;
+    height: 25px;
+    left: 305px;
+    top: 97px;
+    font-family: 'Doppio One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 62px;
+    color: #BA8B6D;
+}
+select {
+    position: absolute;
+    width: 1169px;
+    height: 55px;
+    left: 135px;
+    top: 214px;
+    background: #D9D9D9;
+}
+
+img {
+    position: absolute;
+    width: 687px;
+    height: 645px;
+    left: 376px;
+    top: 347px;
+}
