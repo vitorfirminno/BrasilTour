@@ -88,7 +88,7 @@ html, body {
 .cabecalho {
     position: absolute;
     width: 100%;
-    height: 68px;
+    height: 90px;
     left: 0px;
     top: 0px;
     background: #355347;
@@ -97,18 +97,10 @@ html, body {
 
 .logo {
     position: absolute;
-    width: 150px;
-    height: 113px;
-    left: 100px;
-    top: -37px;
-    font-family: 'Dongle';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 104.818px;
-    line-height: 152px;
-    text-decoration: none;
-    list-style: none;
-    color: #BA8B6D;
+    width: 200px;
+    height: 36px;
+    left: 135px;
+    top: -8px;
 }
 
 .Estados {
@@ -130,7 +122,7 @@ html, body {
     position: absolute;
     width: 113.56px;
     height: 106.38px;
-    left: 957px;
+    left: 940px;
     top: -12px;
     font-family: 'Dongle';
     font-style: normal;

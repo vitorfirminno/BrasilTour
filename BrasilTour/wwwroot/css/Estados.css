@@ -1,4 +1,4 @@
-﻿/*@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');*/
+﻿      /*@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');*/
 
 * {
     margin: 0;
@@ -17,7 +17,7 @@
 
     .hero h1 {
         position: absolute;
-        width: 246px;
+        width: 720px;
         height: 72px;
         left: 675px;
         top: 54px;

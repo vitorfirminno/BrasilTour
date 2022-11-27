@@ -1,16 +1,25 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@{
+    ViewData["Title"] = "Rondônia";
 }
-<div rel="stylesheet" href="StyleEstados.css">
-    <h1>Guia Turistico dos Estados Brasileiros</h1>
-    <ul>
-      <a href="riodejaneiro.html">Rio de Janeiro</a>
-      <p><br></p>
-      <a href="rondonia.html">Rondonia</a>
+
+<link rel="stylesheet" href="~/css/Estados.css" />
+<div class="hero">
+    <h1>Rondônia</h1>
+    <p>
+        Capital: Porto Velho <br>
+        Região: Norte <br>
+        População:  1,754 milhões de habitantes <br>
+        clima: equatorial <br>
+        Pontos turísticos: <br>
+        Memorial Rondônia <br>
+        Parque natural de porto velho <br>
+        Espaço alternativo de porto velho <br>
+        Vale das cachoeiras as três caixas d'agua <br>
 
 
+    </p>
 
-    </ul>
-    </div>
+    <img class="img" src="~/css/images/rondonia2.png">
+    <a type="submit" class="btn1" asp-controller="Estados" asp-action="Forms">Comente sua expêriencia!</a>
+    <a type="submit" class="btn2" asp-controller="Estados" asp-action="Comentarios">Veja os comentários!</a>
+</div>

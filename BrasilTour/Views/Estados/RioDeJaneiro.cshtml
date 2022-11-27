@@ -1,33 +1,28 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@{
+    ViewData["Title"] = "Rio de Janeiro";
 }
 
-<div >
-    <link rel="stylesheet" href="~/css/images/Mapa-do-Brasil-Turismo-480x480-1.jpg">
-  
-</div>
- <div>
-     <link rel="stylesheet" href="~/css/StyleEstadosTxt.css">
-     
-       <h1>Rio de Janeiro</h1>
-       <p rel="stylesheet" href="~/css/StyleEstadosTxt.css" class ="Rio"> 
-
-        Rio de Janeiro é uma das 27 unidades federativas do Brasil. Situa-se a sudeste da região Sudeste do país, tendo como limites os estados de Minas Gerais norte e noroeste, Espírito Santo nordeste e São Paulo sudoeste, além do Oceano Atlântico leste e sul. Ocupa uma área de 43 750,425 km². Os naturais do estado do Rio de Janeiro são chamados de fluminenses do latim flumen, literalmente "rio".
-
-        A cidade mais populosa é a sua capital homônima, polo da segunda maior metrópole do Brasil. Apesar de ser, em termos de território, o terceiro menor estado brasileiro ficando atrás apenas de Alagoas e Sergipe, concentra 8,4% da população do país, sendo o estado com maior densidade demográfica do Brasil. <br>
+<link rel="stylesheet" href="~/css/Estados.css" />
+<div class="hero">
+    <h1>Rio de Janeiro</h1>
+    <p>
 
         Capital: Rio de Janeiro <br>
         Região: Sudeste <br>
         População: 6,7 milhões de habitantes <br>
-        clima; clima tropical umido <br>
+        clima: clima tropical umido <br>
         Pontos turristicos:<br>
-                                      Cristo Redentor <br>
-                                      Parque Lage<br>
-                                      Escadaria Selarón<br>
-                                      Pão de Açúcar<br>
-                                      Jardim Botânico
-              </p>
+        Cristo Redentor<br>
+        Cristo Redentor<br>
+        Escadaria Selarón<br>
+        Pão de Açúcar<br>
+        Jardim Botânico .
 
-    </div>
+    </p>
+
+    <img class="img" src="~/css/images/rio1.png">
+    <a type="submit" class="btn1" asp-controller="Estados" asp-action="Forms">Comente sua expêriencia!</a>
+    <a type="submit" class="btn2" asp-controller="Estados" asp-action="Comentarios">Veja os comentários!</a>
+
+    
+</div>

@@ -4,14 +4,14 @@
  <div class="hero">
         <h1>Comentarios</h1>
         <form asp-controller="Estados" asp-action="Forms" method="post">
-            <label for="nome">Nome</label>
+            
             <input type="text" asp-for="Nome" class="input1" placeholder="Digite seu nome: "><br>
 
-            <label for="nome">Cidade</label>
+            
             <input type="text" asp-for="Cidade" class="input2" placeholder="Digite a Cidade: "><br>
 
-            <label for="nome">Relato</label>
-            <input type="text" asp-for="Texto" class="input3" placeholder="Digite o seu relato: "><br>
+           
+            <textarea type="text" rows="4" cols="50" asp-for="Texto" class="input3" placeholder="Digite o seu relato: "> </textarea><br>
 
 
             <button type="submit" value="Submit" class="buttonForm">Adicionar</button>

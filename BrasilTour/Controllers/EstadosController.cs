@@ -64,6 +64,145 @@ namespace BrasilTour.Controllers {
 
             return View();
         }
+        public IActionResult MinasGerais() {
+
+
+            return View();
+        }
+
+        public IActionResult Acre() {
+
+
+            return View();
+        }
+
+        public IActionResult Alagoas() {
+
+
+            return View();
+        }
+
+        public IActionResult Amapa() {
+
+
+            return View();
+        }
+
+        public IActionResult Amazonas() {
+
+
+            return View();
+        }
+        public IActionResult Bahia() {
+
+            return View();
+        }
+
+
+        public IActionResult Ceara() {
+
+
+            return View();
+        }
+
+
+        public IActionResult DistritoFederal() {
+
+
+            return View();
+        }
+
+
+        public IActionResult EspiritoSanto() {
+
+
+            return View();
+        }
+
+        public IActionResult Goias() {
+
+
+            return View();
+        }
+
+        public IActionResult Maranhão() {
+
+
+            return View();
+        }
+
+        public IActionResult MatoGrosso() {
+
+
+            return View();
+        }
+
+        public IActionResult MatoGrossodoSul() {
+
+
+            return View();
+        }
+
+
+        public IActionResult Para() {
+
+
+            return View();
+        }
+
+
+        public IActionResult Paraiba() {
+
+
+            return View();
+        }
+
+        public IActionResult Pernambuco() {
+
+
+            return View();
+        }
+
+        public IActionResult Piaui() {
+
+
+            return View();
+        }
+
+        public IActionResult RioGrandedoNorte() {
+
+
+            return View();
+        }
+        public IActionResult RioGrandedoSul() {
+
+
+            return View();
+        }
+
+
+        public IActionResult Roraima() {
+
+
+            return View();
+        }
+        public IActionResult SantaCatarina() {
+
+
+            return View();
+        }
+        public IActionResult Sergipe() {
+
+
+            return View();
+        }
+        public IActionResult Tocantins() {
+
+
+            return View();
+        }
+
+
         public IActionResult Exemplo() {
             List<EstadosModel> estados = _estadoRepositorio.BuscarTodos();
 
